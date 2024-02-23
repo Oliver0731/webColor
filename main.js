@@ -1,5 +1,5 @@
 // WEB COLORS START
-let colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet", "maroon", "cyan" ]
+let colors = await loadTextFile("web-colors.txt");
 
 //htmml vars
 let outputEl = document.getElementById("container");
